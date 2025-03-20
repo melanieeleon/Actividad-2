@@ -90,3 +90,4 @@ router.get('/findAllByRate/view', function (req, res, next) {
         })
         .catch(error => res.status(400).send(error))
 });
+module.exports = app;
